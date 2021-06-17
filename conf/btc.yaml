@@ -1,0 +1,20 @@
+httpPort: 8000
+
+log:
+  path: "logs"
+
+db:
+  mongo:
+    conn: mongodb://user:password@127.0.0.1:27017/admin
+    name: btc_plugins
+
+omni:
+  host: 127.0.0.1:18332
+  user: omnicorerpc
+  pass: omnicorerpc
+  propertyId: 1
+
+sync:
+  state: 1
+  startHeight: 1
+  period: 30
